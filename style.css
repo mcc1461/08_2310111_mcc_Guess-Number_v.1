@@ -15,7 +15,7 @@ body {
 main {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 44%;
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 1.9rem;
@@ -47,16 +47,93 @@ h1 {
     font-size: 4.7rem;
     margin-bottom: 1rem;
 }
+.guessNumber {
+    font-size: 2rem;
+}
 
-@media (orientation: portrait) and (min-width: 500px){
+@media (max-width: 960px){
     main {
-        top: 30%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        font-size: 1.5rem;
-        font-weight: bold;
-        color: yellow;
+        top: 40%;
+    }
+    h1 {
+        font-size: 3.5rem;
+    }
+    button {
+        width: 100px;
+        height: 50px;
+        font-size: large;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+    .guessNumber {
+        font-size: 1.3rem;
+    }
+
+}
     
+
+@media (max-width: 750px){
+    main {
+        top: 40%;
+    }
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    button {
+        width: 100px;
+        height: 50px;
+        font-size: large;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+    .guessNumber {
+        font-size: 1.1rem;
+    }
+}
+
+
+@media (max-width: 620px){
+    main {
+        top: 45%;
+    }
+    h1 {
+        font-size: 2.4rem;
+        margin-bottom: 1rem;
+    }
+    button {
+        width: 100px;
+        height: 50px;
+        font-size: large;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+    .guessNumber {
+        font-size: 1rem;
     }
 }
     
+
+@media (max-width: 620px){
+    main {
+        top: 45%;
+    }
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    button {
+        width: 90px;
+        height: 40px;
+        font-size: normal;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+    .guessNumber {
+        font-size: 0.8rem;
+    }
+}
