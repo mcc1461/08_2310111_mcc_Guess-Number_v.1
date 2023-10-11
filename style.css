@@ -67,7 +67,7 @@ h1 {
         outline: none;
     }
     .guessNumber {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
 }
@@ -90,7 +90,7 @@ h1 {
         outline: none;
     }
     .guessNumber {
-        font-size: 1.1rem;
+        font-size: 1.4rem;
     }
 }
 
@@ -112,7 +112,7 @@ h1 {
         outline: none;
     }
     .guessNumber {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
     
@@ -128,12 +128,12 @@ h1 {
     button {
         width: 90px;
         height: 40px;
-        font-size: normal;
+        font-size: small;
         border-radius: 10px;
         border: none;
         outline: none;
     }
     .guessNumber {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 }
