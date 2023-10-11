@@ -14,7 +14,7 @@ function mcc(){
             // alert (`Try no: ${i}`);
             yyy = numberEntered();
             if  (xxx === yyy){
-                alert(`Congrats! \nIn ${i}attempt(s) you discovered the answer!`)
+                alert(`Congratulations! 🎉 \nIn ${i}attempt(s) you discovered the answer!`)
                 break;
             }  else {
                 if (i === 7) { alert (`Guessing is over!!!  \nUnfortunately, you misguessed "number: ${xxx}".`); break;} else { 
