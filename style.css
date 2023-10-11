@@ -98,6 +98,7 @@ h1 {
 @media (max-width: 620px){
     main {
         top: 45%;
+        width: 100%;
     }
     h1 {
         font-size: 2.4rem;
