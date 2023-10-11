@@ -75,7 +75,7 @@ h1 {
 
 @media (max-width: 750px){
     main {
-        top: 40%;
+        top: 30%;
     }
     h1 {
         font-size: 3rem;
