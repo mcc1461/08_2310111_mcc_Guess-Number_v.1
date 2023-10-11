@@ -117,23 +117,20 @@ h1 {
 }
     
 
-@media (max-width: 620px){
+@media (max-width: 475px){
     main {
         top: 45%;
     }
     h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-bottom: 1rem;
     }
     button {
         width: 90px;
         height: 40px;
         font-size: small;
-        border-radius: 10px;
-        border: none;
-        outline: none;
     }
     .guessNumber {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
