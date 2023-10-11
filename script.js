@@ -11,7 +11,7 @@ function mcc(){
     }
     function result() {
         for (let i=1; i<8; i++) {
-            alert (`Try no: ${i}`);
+            // alert (`Try no: ${i}`);
             yyy = numberEntered();
             if  (xxx === yyy){
                 alert(`Congrats! \nIn ${i}attempt(s) you discovered the answer!`)
