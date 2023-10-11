@@ -131,6 +131,11 @@ h1 {
         font-size: small;
     }
     .guessNumber {
-        font-size: 0.8rem;
+        font-size: 1.1rem;
+    }
+
+    button:hover {
+        background-color: aqua;
+        font-size: large;
     }
 }
