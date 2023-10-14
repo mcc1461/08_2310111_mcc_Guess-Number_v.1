@@ -55,6 +55,12 @@ img {
     box-shadow: 0 0 19px rgb(113, 233, 246);
 }
 
+.swalClass {
+    width: 40px;
+    height: 20px;
+    background-color: rgba(63,255,106,0.69);
+    border: 3px solid white;
+  }
 
 @media screen and (max-width: 700px) {
     body {
