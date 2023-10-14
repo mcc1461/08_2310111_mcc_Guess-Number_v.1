@@ -14,10 +14,14 @@ function mcc(){
             // alert (`Try no: ${i}`);
             yyy = numberEntered();
             if  (xxx === yyy){
-                alert(`🎉 Congratulations! 🎉 \nIn ${i}attempt(s) you discovered the answer!`)
+                alert(`
+                             🎉 Congratulations! 🎉 
+                In ${i} attempt(s) you discovered the answer!`)
                 break;
             }  else {
-                if (i === 7) { alert (`Guessing is over!!!  \nUnfortunately, you misguessed "number: ${xxx}".`); break;} else { 
+                if (i === 7) { alert (`
+                             😱  Guessing is over!!!  
+                Unfortunately, you misguessed "number: ${xxx}".`); break;} else { 
                     (xxx > yyy ) ? alert ("Increse ▲") : alert ("Decrease ▼"); continue; };
             }
         }
