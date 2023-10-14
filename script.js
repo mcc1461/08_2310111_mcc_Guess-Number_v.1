@@ -20,8 +20,9 @@ function mcc(){
                 break;
             }  else {
                 if (i === 7) { alert (`
-                             😱  Guessing is over!!!  
-                Unfortunately, you misguessed "number: ${xxx}".`); break;} else { 
+                             
+                      😱  Guessing is over!!!  
+                Unfortunately, you misguessed "${xxx}".`); break;} else { 
                     (xxx > yyy ) ? alert ("Increse ▲") : alert ("Decrease ▼"); continue; };
             }
         }
