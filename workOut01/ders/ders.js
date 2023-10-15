@@ -1,1 +1,0 @@
-variable.replace("ı";"i")
